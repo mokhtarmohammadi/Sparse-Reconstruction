@@ -1,6 +1,6 @@
 function [x y iii iiii]=signal_2(SampFreq,M)
                         
-% SampFreq = 128;
+% SampFreq = 128; sample
 fs=SampFreq;
 t = 0:1/SampFreq:1-1/SampFreq;
 N=SampFreq;
